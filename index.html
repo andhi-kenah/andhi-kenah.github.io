@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html class="dark">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+		<link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon">
+
+		<link rel="stylesheet" href="/css/style.css">
+
+		<title>Andhi Kenah</title>
+
+		<meta name="title" content="Andhi Kenah | Full-Stack Developer & Financial Account Manager" />
+		<meta name="description" content="Professional full-stack developer specializing in PHP, JavaScript, and React. Experienced financial account manager with expertise in business analysis. Based in Madagascar." />
+		<meta name="keywords" content="Andhi Kenah, Full-Stack Developer, PHP Developer, JavaScript Developer, React Developer, Laravel, Node.js, Financial Manager, Account Manager, Web Development, Mobile Development, Madagascar Developer, Freelance Developer, Business Analyst" />
+		<meta name="author" content="Andhi Kenah" />
+		<meta name="robots" content="index, follow" />
+		<meta name="language" content="English, Français" />
+		<meta name="revisit-after" content="7 days" />
+
+		<meta name="theme-color" content="#1b62dd" media="(prefers-color-scheme: light)" />
+		<meta name="theme-color" content="#3c7cea" media="(prefers-color-scheme: dark)" />
+
+		<meta name="apple-mobile-web-app-title" content="Andhi Kenah" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<link rel="manifest" href="/manifest.json" />
+
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Person",
+			"name": "Andhi Kenah",
+			"jobTitle": ["Full-Stack Developer", "Financial Account Manager"],
+			"description": "Professional full-stack developer specializing in PHP and JavaScript. Experienced financial account manager with expertise in Laravel, Node.js, and business analysis.",
+			"url": "https://andhikenah.me",
+			"image": "https://andhikenah.me/assets/avatar.jpeg",
+			"sameAs": [
+				"https://github.com/andhi-kenah",
+				"https://linkedin.com/in/andhikenah"
+			],
+			"knowsAbout": [
+				"PHP",
+				"TypeScript",
+				"React",
+				"Laravel",
+				"Symfony",
+				"Node.js",
+				"Financial Management",
+				"Account Management",
+				"Web Development",
+				"Mobile Development"
+			],
+			"worksFor": {
+				"@type": "Organization",
+				"name": "Freelance"
+			},
+			"address": {
+				"@type": "PostalAddress",
+				"addressCountry": "Madagascar"
+			}
+		}
+		</script>
+	</head>
+	<body>
+		<header>
+			<div>
+				<div class="header-left">
+					<a href="/">
+						<div class="header-name">
+							<span>A</span><span class="header-name-full">ndhi </span
+							><span>K</span><span class="header-name-full">enah</span>
+						</div>
+					</a>
+				</div>
+				<nav>
+					<ul>
+						<li>
+							<a href="/about.html">
+								<div>
+									<span data-i18n="common.about">About</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/skills.html">
+								<div>
+									<span data-i18n="common.skills">Skills</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/projects.html">
+								<div>
+									<span data-i18n="common.projects">Projects</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/contact.html">
+								<div>
+									<span data-i18n="common.contact">Contact</span>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header-right">
+					<div class="header-mobile" aria-hidden="true">
+						<button id="menu-toggle">
+							<img id="menu-icon" src="/public/ionicons/menu-outline.svg" alt="Menu" width="24" height="24" />
+						</button>
+					</div>
+					<div class="preferences">
+						<div class="preferences-lang">
+							<select name="lang" id="lang-select">
+								<option value="en">🇺🇸 EN</option>
+								<option value="fr">🇫🇷 FR</option>
+							</select>
+						</div>
+						<button id="theme-toggle">
+							<div>
+								<img src="/public/ionicons/moon-outline.svg" alt="Toggle theme" width="18" height="18" />
+							</div>
+						</button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div id="hero">
+				<div>
+					<div class="hero-info" id="hero-info">
+						<div>
+							<span>
+								ANDRIANINA
+							</span>
+						</div>
+						<div>
+							<h1>
+								Andhi Kenah
+							</h1>
+						</div>
+					</div>
+					<div class="hero-text">
+						<p>
+							<span data-i18n="home-page.hero.subtitle">Developpeur passionné PHP &amp; JS et comptable junior.</span>
+						</p>
+					</div>
+					<div class="hero-action">
+						<a href="/contact.html">
+							<div class="btn-primary">
+								<strong data-i18n="home-page.hero.action.contact-me">Contact me</strong>
+							</div>
+						</a>
+						<a href="/projects.html">
+							<div class="btn-outline">
+								<strong data-i18n="home-page.hero.action.see-all-projects">See all projects</strong>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<section id="main-stacks">
+				<div>
+					<a href="#main-stacks">
+						<h2 data-i18n="home-page.main-stacks.title">Main stack</h2>
+					</a>
+					<p>
+						<span data-i18n="home-page.main-stacks.subtitle">I'm proficient in a variety of technologies, including:</span>
+					</p>
+					<a href="/skills.html">
+						<ul>
+							<li>
+								<img src="/public/images/tech/typescript.webp" alt="TypeScript" width="32" height="32">
+							</li>
+							<li>
+								<img src="/public/images/tech/laravel.webp" alt="Laravel" width="32" height="32">
+							</li>
+							<li>
+								<img src="/public/images/tech/symfony.webp" alt="Symfony" width="32" height="32">
+							</li>
+							<li>
+								<img src="/public/images/tech/nodejs.webp" alt="Node.js" width="32" height="32">
+							</li>
+							<li>
+								<img src="/public/images/tech/expressjs.webp" alt="Express.js" width="32" height="32">
+							</li>
+							<li>
+								<img src="/public/images/tech/react.webp" alt="React" width="32" height="32">
+							</li>
+							<li>
+								<img src="/public/images/tech/tailwindcss.webp" alt="Tailwind CSS" width="32" height="32">
+							</li>
+							<li>
+								<img src="/public/images/tech/rust.webp" alt="Rust" width="32" height="32">
+							</li>
+							<li>
+								<img src="/public/images/tech/git.webp" alt="Git" width="32" height="32">
+							</li>
+							<li>
+								<img src="/public/images/tech/docker.webp" alt="Docker" width="32" height="32">
+							</li>
+						</ul>
+					</a>
+					<div class="section-action">
+						<a href="/skills.html">
+							<div class="btn-outline">
+								<strong data-i18n="home-page.main-stacks.see-all">See all skills</strong>
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section id="whatido">
+				<div>
+					<a href="#whatido">
+						<h2 data-i18n="home-page.what-i-do.title">What I do</h2>
+					</a>
+					<div class="whatido-container">
+						<div>
+							<div class="cylinder-container">
+								<div class="cylinder">
+									<div class="cylinder-face">
+										<span data-i18n="home-page.what-i-do.uiux.title">UI/UX</span>
+										<p data-i18n="home-page.what-i-do.uiux.text">
+											Design user-friendly interfaces and experiences that enhance user satisfaction.
+										</p>
+									</div>
+									<div class="cylinder-face">
+										<span data-i18n="home-page.what-i-do.responsive.title">Responsive</span>
+										<p data-i18n="home-page.what-i-do.responsive.text">
+											Ensure designs are responsive and accessible across all devices.
+										</p>
+									</div>
+									<div class="cylinder-face">
+										<span data-i18n="home-page.what-i-do.seo.title">SEO optimization</span>
+										<p data-i18n="home-page.what-i-do.seo.text">
+											Implement best practices for SEO to improve website visibility and ranking.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div>
+								<h3 data-i18n="home-page.what-i-do.web-dev.title">Web Development</h3>
+								<p data-i18n="home-page.what-i-do.web-dev.text">
+									Create responsive and user-friendly websites using the latest technologies.
+								</p>
+								<a href="/about.html">
+									<div class="btn-primary">
+										<strong data-i18n="common.learn-more">Learn more</strong>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div>
+							<div class="neuron-container">
+								<div class="neuron">
+									<div class="neuron-core"></div>
+									<div class="neuron-node node-1">
+										<span>API</span>
+									</div>
+									<div class="neuron-node node-2">
+										<span>Database</span>
+									</div>
+									<div class="neuron-node node-3">
+										<span>Security</span>
+									</div>
+									<div class="neuron-connection conn-1"></div>
+									<div class="neuron-connection conn-2"></div>
+									<div class="neuron-connection conn-3"></div>
+								</div>
+							</div>
+							<div>
+								<h3 data-i18n="home-page.what-i-do.backend-dev.title">Backend Development</h3>
+								<p data-i18n="home-page.what-i-do.backend-dev.text">
+									Build robust and scalable server-side applications using PHP and Node.js.
+								</p>
+								<a href="/about.html">
+									<div class="btn-primary">
+										<strong data-i18n="common.learn-more">Learn more</strong>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div>
+							<div class="data-chart-container">
+								<div class="data-chart">
+									<div class="data-bar bar-1">
+											<span data-i18n="home-page.what-i-do.forecasting">Forecasting</span>
+									</div>
+									<div class="data-bar bar-2">
+											<span data-i18n="home-page.what-i-do.reporting">Reporting</span>
+									</div>
+									<div class="data-bar bar-3">
+											<span data-i18n="home-page.what-i-do.reconciliation">Reconciliation</span>
+									</div>
+								</div>
+							</div>
+							<div>
+								<h3 data-i18n="home-page.what-i-do.financial.title">Financial Analysis</h3>
+								<p data-i18n="home-page.what-i-do.financial.text">
+									Analyze financial data to help businesses make informed decisions.
+								</p>
+								<a href="/about.html">
+									<div class="btn-primary">
+										<strong data-i18n="common.learn-more">Learn more</strong>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="latest-projects">
+				<div>
+					<a href="#">
+						<h2 data-i18n="home-page.latest-projects.title">Latest Projects</h2>
+					</a>
+					<p data-i18n="home-page.latest-projects.subtitle">
+						Projects that I have recently worked on:
+					</p>
+					<ul>
+						<li>
+							<a href="/projects/social-generative-content.html">
+								<div class="latest-projects-info">
+									<span data-i18n="home-page.latest-projects.social.type">SaaS</span>
+									<h3 data-i18n="home-page.latest-projects.social.title">Social generative content platform</h3>
+									<div class="latest-projects-description">
+										<p data-i18n="home-page.latest-projects.social.text">
+											Platform for generating social media content with AI, including user authentication and analytics.
+										</p>
+									</div>
+								</div>
+								<div class="latest-projects-image">
+									<!-- <img loading="lazy" src="/public/images/screenshots/order-management.webp" alt="Order management"> -->
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/projects/ilo-app.html">
+								<div class="latest-projects-info">
+									<span data-i18n="home-page.latest-projects.ilo.type">Mobile application</span>
+									<h3 data-i18n="home-page.latest-projects.ilo.title">Ilo app</h3>
+									<div class="latest-projects-description">
+										<p data-i18n="home-page.latest-projects.ilo.text">
+											Since 2020, ILO app has grown significantly, gaining over 100 users annually. It is a mobile learning and review application designed for tertiary-level students.
+										</p>
+									</div>
+								</div>
+								<div class="latest-projects-image">
+									<img loading="lazy" src="/public/images/screenshots/ilo-app.webp" alt="Ilo app">
+								</div>
+							</a>
+						</li>
+					</ul>
+					<div class="section-action">
+						<a href="/projects.html">
+							<div class="btn-outline">
+								<strong data-i18n="home-page.latest-projects.see-all">See all projects</strong>
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section id="why-me">
+				<div>
+					<a href="#why-me">
+						<h2 data-i18n="home-page.why-me.title">Why choose me ?</h2>
+					</a>
+					<div class="why-me-container">
+						<ol>
+							<li>
+								<div>
+									<h4 data-i18n="home-page.why-me.items.collaborative.title">Collaborative</h4>
+									<p data-i18n="home-page.why-me.items.collaborative.text">
+										I'm a strong advocate for teamwork and believe that collaboration leads to better outcomes. I enjoy working with others to solve problems and create innovative solutions.
+									</p>
+								</div>
+							</li>
+							<li>
+								<div>
+									<h4 data-i18n="home-page.why-me.items.organized.title">Organized</h4>
+									<p data-i18n="home-page.why-me.items.organized.text">
+										I'm highly organized and detail-oriented, which helps me manage my time effectively and meet deadlines. I believe that a well-structured approach is key to successful project execution.
+									</p>
+								</div>
+							</li>
+							<li>
+								<div>
+									<h4 data-i18n="home-page.why-me.items.security.title">Security</h4>
+									<p data-i18n="home-page.why-me.items.security.text">
+										I'm committed to implementing best practices in security to protect user data and ensure privacy. I stay informed about the latest security threats and work proactively to mitigate risks.
+									</p>
+								</div>
+							</li>
+							<li>
+								<div>
+									<h4 data-i18n="home-page.why-me.items.effective.title">Effective</h4>
+									<p data-i18n="home-page.why-me.items.effective.text">
+										I'm dedicated to delivering high-quality work that meets the needs of my clients. I take the time to understand project requirements and strive for excellence in every aspect of my work.
+									</p>
+								</div>
+							</li>
+						</ol>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div>
+				<div class="footer-container">
+					<div class="footer-info">
+						<div class="footer-name">
+							<a href="/"><strong>ANDRIANINA Andhi Kenah</strong></a>
+						</div>
+						<div class="footer-speciality">
+							<span>Developer PHP &amp; JS, Accountant</span>
+						</div>
+						<div class="footer-description">
+							<p>
+								<i data-i18n="footer.description-1">Passionate developer with strong PHP &amp; JavaScript skills.</i>
+							</p>
+							<p>
+								<i data-i18n="footer.description-2">And skilled in account management and financial analysis.</i>
+							</p>
+						</div>
+						<div class="footer-cv">
+							<a href="/CV-AndhiKenah.pdf" target="_blank">
+								<div>
+									<span data-i18n="common.download-resume">Download Resume</span>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="footer-links">
+						<div class="footer-link">
+							<strong data-i18n="common.links">Links</strong>
+							<ul>
+								<li><a href="/"><span data-i18n="common.home">Home</span></a></li>
+								<li><a href="/about.html"><span data-i18n="common.about">About</span></a></li>
+								<li><a href="/skills.html"><span data-i18n="common.skills">Skills</span></a></li>
+								<li><a href="/projects.html"><span data-i18n="common.projects">Projects</span></a></li>
+								<li><a href="/contact.html"><span data-i18n="common.contact">Contact</span></a></li>
+							</ul>
+						</div>
+						<div class="footer-network">
+							<div>
+								<div>
+									<strong data-i18n="common.contact-me">Contact me</strong>
+								</div>
+								<ul>
+									<li>
+										<a href="https://linkedin.com/in/andhikenah" target="_blank" rel="noopener">
+											<img src="/public/ionicons/logo-linkedin.svg" alt="LinkedIn" />
+										</a>
+									</li>
+									<li>
+										<a href="https://wa.me/+261340275694" target="_blank" rel="noopener">
+											<img src="/public/ionicons/logo-whatsapp.svg" alt="WhatsApp" />
+										</a>
+									</li>
+									<li>
+										<a href="mailto:andhiandrianina@gmail.com" target="_blank" rel="noopener">
+											<img src="/public/ionicons/mail.svg" alt="Email" />
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div>
+								<div>
+									<strong data-i18n="common.follow-me">Follow me</strong>
+								</div>
+								<ul>
+									<li>
+										<a href="https://github.com/andhi-kenah" target="_blank" rel="noopener">
+											<img src="/public/ionicons/logo-github.svg" alt="GitHub" />
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-end">
+					<p data-i18n="footer.designed-built-by">Designed and built by <a href="/">Andhi Kenah</a></p>
+					<span data-i18n="footer.rights">Andhi Kenah &copy; Portfolio 2026. All rights reserved.</span>
+				</div>
+			</div>
+		</footer>
+		<div id="loader" class="load-active load-animate">
+			<div>
+				<span></span><span></span><span></span>
+			</div>
+		</div>
+        <script src="/js/bundle.js"></script>
+    </body>
+</html>

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html class="dark">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+		<link
+			rel="shortcut icon"
+			href="/public/favicon.ico"
+			type="image/x-icon"
+		/>
+
+		<link rel="stylesheet" href="/css/style.css" />
+
+		<title data-i18n="title.projects">Andhi Kenah</title>
+
+		<meta name="title" content="Andhi Kenah | Full-Stack Developer & Financial Account Manager" />
+		<meta name="description" content="Professional full-stack developer specializing in PHP, JavaScript, and React. Experienced financial account manager with expertise in business analysis. Based in Madagascar." />
+		<meta name="keywords" content="Andhi Kenah, Full-Stack Developer, PHP Developer, JavaScript Developer, React Developer, Laravel, Node.js, Financial Manager, Account Manager, Web Development, Mobile Development, Madagascar Developer, Freelance Developer, Business Analyst" />
+		<meta name="author" content="Andhi Kenah" />
+		<meta name="robots" content="index, follow" />
+		<meta name="language" content="English, Français" />
+		<meta name="revisit-after" content="7 days" />
+
+		<meta name="theme-color" content="#1b62dd" media="(prefers-color-scheme: light)" />
+		<meta name="theme-color" content="#3c7cea" media="(prefers-color-scheme: dark)" />
+
+		<meta name="apple-mobile-web-app-title" content="Andhi Kenah" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<link rel="manifest" href="/manifest.json" />
+	</head>
+	<body>
+		<header>
+			<div>
+				<div class="header-left">
+					<a href="/">
+						<div class="header-name">
+							<span>A</span><span class="header-name-full">ndhi </span
+							><span>K</span><span class="header-name-full">enah</span>
+						</div>
+					</a>
+				</div>
+				<nav>
+					<ul>
+						<li>
+							<a href="/about.html">
+								<div>
+									<span data-i18n="common.about">About</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/skills.html">
+								<div>
+									<span data-i18n="common.skills">Skills</span>
+								</div>
+							</a>
+						</li>
+						<li class="nav-active">
+							<a href="/projects.html">
+								<div>
+									<span data-i18n="common.projects">Projects</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/contact.html">
+								<div>
+									<span data-i18n="common.contact">Contact</span>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header-right">
+					<div class="header-mobile">
+						<button id="menu-toggle">
+							<img id="menu-icon" src="/public/ionicons/menu-outline.svg" alt="Menu" width="24" height="24" />
+						</button>
+					</div>
+					<div class="preferences">
+						<div class="preferences-lang">
+							<select name="lang" id="lang-select">
+								<option value="en">🇺🇸 EN</option>
+								<option value="fr">🇫🇷 FR</option>
+							</select>
+						</div>
+						<button id="theme-toggle">
+							<div>
+								<img src="/public/ionicons/moon-outline.svg" alt="Toggle theme" width="18" height="18" />
+							</div>
+						</button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section id="projects">
+				<div>
+					<a href="#projects">
+						<h2 data-i18n="projects-page.title">Projects</h2>
+					</a>
+					<p data-i18n="projects-page.subtitle">
+						I've created management tools and platforms, such as interactive e-learning and project management systems.
+					</p>
+					<div class="projects-container">
+						<ul>
+							<li>
+								<a href="/projects/portfolio.html">
+									<div class="projects-item">
+										<div class="projects-image">
+											<span data-i18n="common.not-available">Not Available</span>
+										</div>
+										<div class="projects-info">
+											<span data-i18n="projects-page.items.portfolio.type">Web</span>
+											<h3 data-i18n="projects-page.items.portfolio.title">My own portfolio</h3>
+											<p data-i18n="projects-page.items.portfolio.text">
+												Built my portfolio with a responsive design, dark mode, and multi-language support and automated deployment.
+											</p>
+											<ul>
+												<li>TypeScript</li>
+												<li>HTML</li>
+												<li>CSS</li>
+												<li>Github Action</li>
+												<li>+1</li>
+											</ul>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="/projects/social-generative-content.html">
+									<div class="projects-item">
+										<div class="projects-image">
+											<span data-i18n="common.not-available">Not Available</span>
+										</div>
+										<div class="projects-info">
+											<span data-i18n="projects-page.items.social.type">SaaS</span>
+											<h3 data-i18n="projects-page.items.social.title">Social generative content platform</h3>
+											<p data-i18n="projects-page.items.social.text">
+												Platform for generating social media content with AI, including user authentication and analytics.
+											</p>
+											<ul>
+												<li>PHP</li>
+												<li>Laravel</li>
+												<li>PostgreSQL</li>
+												<li>ReactJS</li>
+												<li>+4</li>
+											</ul>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="/projects/ilo-app.html">
+									<div class="projects-item">
+										<div class="projects-image">
+											<img loading="lazy" src="/public/images/screenshots/ilo-app.webp" alt="" fetchpriority="low">
+										</div>
+										<div class="projects-info">
+											<span data-i18n="projects-page.items.ilo.type">Mobile</span>
+											<h3 data-i18n="projects-page.items.ilo.title">Ilo app</h3>
+											<p data-i18n="projects-page.items.ilo.text">
+												An interactive e-learning platform designed to enhance student engagement and learning outcomes.
+											</p>
+											<ul>
+												<li>Java</li>
+												<li>SQLite</li>
+												<li>JavaScript</li>
+												<li>Android</li>
+												<li>+1</li>
+											</ul>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="/projects/project-management-ong.html">
+									<div class="projects-item">
+										<div class="projects-image">
+											<span data-i18n="common.not-available">Not Available</span>
+										</div>
+										<div class="projects-info">
+											<span data-i18n="projects-page.items.pm-ong.type">SaaS</span>
+											<h3 data-i18n="projects-page.items.pm-ong.title">Project management for ONG</h3>
+											<p data-i18n="projects-page.items.pm-ong.text">
+												A web-based project management tool that helps teams collaborate and track progress efficiently.
+											</p>
+											<ul>
+												<li>Node.js</li>
+												<li>Express.js</li>
+												<li>MongoDB</li>
+												<li>ReactJS</li>
+												<li>+3</li>
+											</ul>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="/projects/order-management.html">
+									<div class="projects-item">
+										<div class="projects-image">
+											<img loading="lazy" src="/public/images/screenshots/order-management.webp" alt="" fetchpriority="low">
+										</div>
+										<div class="projects-info">
+											<span data-i18n="projects-page.items.order.type">Mobile</span>
+											<h3 data-i18n="projects-page.items.order.title">Order management</h3>
+											<p data-i18n="projects-page.items.order.text">
+												A financial accounting system that streamlines bookkeeping and reporting for small businesses.
+											</p>
+											<ul>
+												<li>TypeScript</li>
+												<li>ReactJS</li>
+												<li>Android</li>
+												<li>iOS</li>
+												<li>+1</li>
+											</ul>
+										</div>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section id="interests">
+				<div>
+					<a href="#interests">
+						<h2 data-i18n="common.interests">Interests</h2>
+					</a>
+					<p data-i18n="projects-page.interests.text">
+						I'm interested in exploring new technologies and frameworks, as well
+						as staying up-to-date with industry trends. In my free time, I enjoy
+						working on personal projects and contributing to open-source
+						communities.
+					</p>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div>
+				<div class="footer-container">
+					<div class="footer-info">
+						<div class="footer-name">
+							<a href="/"><strong>ANDRIANINA Andhi Kenah</strong></a>
+						</div>
+						<div class="footer-speciality">
+							<span>Developer PHP &amp; JS, Accountant</span>
+						</div>
+						<div class="footer-description">
+							<p>
+								<i data-i18n="footer.description-1">Passionate developer with strong PHP &amp; JavaScript skills.</i>
+							</p>
+							<p>
+								<i data-i18n="footer.description-2">And skilled in account management and financial analysis.</i>
+							</p>
+						</div>
+						<div class="footer-cv">
+							<a href="/CV-AndhiKenah.pdf" target="_blank">
+								<div>
+									<span data-i18n="common.download-resume">Download Resume</span>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="footer-links">
+						<div class="footer-link">
+							<strong data-i18n="common.links">Links</strong>
+							<ul>
+								<li><a href="/"><span data-i18n="common.home">Home</span></a></li>
+								<li><a href="/about.html"><span data-i18n="common.about">About</span></a></li>
+								<li><a href="/skills.html"><span data-i18n="common.skills">Skills</span></a></li>
+								<li><a href="/projects.html"><span data-i18n="common.projects">Projects</span></a></li>
+								<li><a href="/contact.html"><span data-i18n="common.contact">Contact</span></a></li>
+							</ul>
+						</div>
+						<div class="footer-network">
+							<div>
+								<div>
+									<strong data-i18n="common.contact-me">Contact me</strong>
+								</div>
+								<ul>
+									<li>
+										<a href="https://linkedin.com/in/andhikenah" target="_blank" rel="noopener">
+											<img src="/public/ionicons/logo-linkedin.svg" alt="LinkedIn" />
+										</a>
+									</li>
+									<li>
+										<a href="https://wa.me/+261340275694" target="_blank" rel="noopener">
+											<img src="/public/ionicons/logo-whatsapp.svg" alt="WhatsApp" />
+										</a>
+									</li>
+									<li>
+										<a href="mailto:andhiandrianina@gmail.com" target="_blank" rel="noopener">
+											<img src="/public/ionicons/mail.svg" alt="Email" />
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div>
+								<div>
+									<strong data-i18n="common.follow-me">Follow me</strong>
+								</div>
+								<ul>
+									<li>
+										<a href="https://github.com/andhi-kenah" target="_blank" rel="noopener">
+											<img src="/public/ionicons/logo-github.svg" alt="GitHub" />
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-end">
+					<p data-i18n="footer.designed-built-by">Designed and built by <a href="/">Andhi Kenah</a></p>
+					<span data-i18n="footer.rights">Andhi Kenah &copy; Portfolio 2026. All rights reserved.</span>
+				</div>
+			</div>
+		</footer>
+		<div id="loader" class="load-active load-animate">
+			<div><span></span><span></span><span></span></div>
+		</div>
+		<script src="/js/bundle.js"></script>
+	</body>
+</html>

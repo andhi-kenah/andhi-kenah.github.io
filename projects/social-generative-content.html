@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html class="dark">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+		<link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="/css/style.css" />
+		<title>Social Generative Content | Andhi Kenah</title>
+		<meta name="description" content="AI-powered platform for generating social media content with user authentication and analytics." />
+	</head>
+	<body>
+		<header>
+			<div>
+				<div class="header-left">
+					<a href="/">
+						<div class="header-name">
+							<span>A</span><span class="header-name-full">ndhi </span
+							><span>K</span><span class="header-name-full">enah</span>
+						</div>
+					</a>
+				</div>
+				<nav>
+					<ul>
+						<li>
+							<a href="/about.html">
+								<div>
+									<span data-i18n="common.about">About</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/skills.html">
+								<div>
+									<span data-i18n="common.skills">Skills</span>
+								</div>
+							</a>
+						</li>
+						<li class="nav-subactive">
+							<a href="/projects.html">
+								<div>
+									<span data-i18n="common.projects">Projects</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/contact.html">
+								<div>
+									<span data-i18n="common.contact">Contact</span>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header-right">
+					<div class="header-mobile">
+						<button id="menu-toggle">
+							<img id="menu-icon" src="/public/ionicons/menu-outline.svg" alt="Menu" width="24" height="24" />
+						</button>
+					</div>
+					<div class="preferences">
+						<div class="preferences-lang">
+							<select name="lang" id="lang-select">
+								<option value="en">🇺🇸 EN</option>
+								<option value="fr">🇫🇷 FR</option>
+							</select>
+						</div>
+						<button id="theme-toggle">
+							<div>
+								<img src="/public/ionicons/moon-outline.svg" alt="Toggle theme" width="18" height="18" />
+							</div>
+						</button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section id="project-detail">
+				<div>
+                    <nav>
+                        <a href="/projects.html">
+                            <div>
+                                <img src="/public/ionicons/arrow-back.svg" alt="Back" width="20" height="20" />
+                                <span data-i18n="project-details.back">Back to all projects</span>
+                            </div>
+                        </a>
+                    </nav>
+					<div class="project-header">
+						<span class="project-category" data-i18n="project-details.social.type">SaaS</span>
+						<h1 data-i18n="project-details.social.title">Social Generative Content Platform</h1>
+						<p class="project-subtitle" data-i18n="project-details.social.subtitle">AI-powered content generation for social media marketing</p>
+					</div>
+					
+					<div class="project-image"></div>
+
+					<div class="project-content">
+                        <div class="project-section">
+                            <div class="project-tech">
+                                <span>PHP</span>
+                                <span>Laravel</span>
+                                <span>PostgreSQL</span>
+                                <span>ReactJS</span>
+                                <span>TailwindCSS</span>
+                                <span>Docker</span>
+                                <span>CI/CD</span>
+                                <span>Figma</span>
+                            </div>
+                        </div>
+
+						<div class="project-section">
+							<h2 data-i18n="project-details.about">About this project</h2>
+							<p data-i18n="project-details.social.about-p1">
+								A comprehensive SaaS platform for generating social media content using artificial intelligence. 
+								The platform transforms simple prompts into ready-to-publish content in less than a minute.
+							</p>
+							<p data-i18n="project-details.social.about-p2">
+								Built during my internship at Etech Consulting, this project showcases full-stack development 
+								with modern technologies and AI integration.
+							</p>
+						</div>
+
+						<div class="project-section">
+							<h2 data-i18n="project-details.features">Key Features</h2>
+							<ul>
+								<li data-i18n="project-details.social.features.0">AI-powered content generation from prompts</li>
+								<li data-i18n="project-details.social.features.1">User authentication and role management</li>
+								<li data-i18n="project-details.social.features.2">Analytics dashboard for tracking content performance</li>
+								<li data-i18n="project-details.social.features.3">Multi-platform content formatting (Twitter, LinkedIn, Instagram)</li>
+								<li data-i18n="project-details.social.features.4">Content scheduling and automation</li>
+								<li data-i18n="project-details.social.features.5">Team collaboration features</li>
+							</ul>
+						</div>
+
+						<div class="project-section">
+							<h2 data-i18n="project-details.links">Links</h2>
+							<div class="project-links">
+								<a href="/" target="_blank" rel="noopener" class="btn-primary">
+                                    <img src="/public/ionicons/open-outline.svg" alt="Live" width="18" height="18" />
+                                    <span data-i18n="project-details.live-demo">Live Demo</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<div id="loader" class="load-active load-animate">
+			<div><span></span><span></span><span></span></div>
+		</div>
+		<script src="/js/bundle.js"></script>
+	</body>
+</html>

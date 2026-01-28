@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html class="dark">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+		<link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="/css/style.css" />
+		<title>ILO App | Andhi Kenah</title>
+		<meta name="description" content="Interactive e-learning mobile application for students preparing for technical baccalaureate exams." />
+	</head>
+	<body>
+		<header>
+			<div>
+				<div class="header-left">
+					<a href="/">
+						<div class="header-name">
+							<span>A</span><span class="header-name-full">ndhi </span
+							><span>K</span><span class="header-name-full">enah</span>
+						</div>
+					</a>
+				</div>
+				<nav>
+					<ul>
+						<li>
+							<a href="/about.html">
+								<div>
+									<span data-i18n="common.about">About</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/skills.html">
+								<div>
+									<span data-i18n="common.skills">Skills</span>
+								</div>
+							</a>
+						</li>
+						<li class="nav-subactive">
+							<a href="/projects.html">
+								<div>
+									<span data-i18n="common.projects">Projects</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/contact.html">
+								<div>
+									<span data-i18n="common.contact">Contact</span>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header-right">
+					<div class="header-mobile">
+						<button id="menu-toggle">
+							<img id="menu-icon" src="/public/ionicons/menu-outline.svg" alt="Menu" width="24" height="24" />
+						</button>
+					</div>
+					<div class="preferences">
+						<div class="preferences-lang">
+							<select name="lang" id="lang-select">
+								<option value="en">🇺🇸 EN</option>
+								<option value="fr">🇫🇷 FR</option>
+							</select>
+						</div>
+						<button id="theme-toggle">
+							<div>
+								<img src="/public/ionicons/moon-outline.svg" alt="Toggle theme" width="18" height="18" />
+							</div>
+						</button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section id="project-detail">
+				<div>
+                    <nav>
+                        <a href="/projects.html">
+                            <div>
+                                <img src="/public/ionicons/arrow-back.svg" alt="Back" width="20" height="20" />
+                                <span data-i18n="project-details.back">Back to all projects</span>
+                            </div>
+                        </a>
+                    </nav>
+					<div class="project-header">
+						<span class="project-category" data-i18n="project-details.ilo.type">Mobile</span>
+						<h1 data-i18n="project-details.ilo.title">ILO App</h1>
+						<p class="project-subtitle" data-i18n="project-details.ilo.subtitle">E-learning platform for baccalaureate exam preparation</p>
+					</div>
+					
+					<div class="project-image">
+						<img loading="lazy" src="/public/images/screenshots/ilo-app.webp" alt="ILO App Screenshot" />
+					</div>
+
+					<div class="project-content">
+                        <div class="project-section">
+                            <div class="project-tech">
+                                <span>Java</span>
+                                <span>Android</span>
+                                <span>SQLite</span>
+                                <span>JavaScript</span>
+                                <span>Figma</span>
+                            </div>
+                        </div>
+
+						<div class="project-section">
+							<h2 data-i18n="project-details.about">About this project</h2>
+							<p data-i18n="project-details.ilo.about-p1">
+								ILO App is a mobile application designed for terminal students preparing for the tertiary 
+								technical baccalaureate exam. The app aims to encourage students and help them learn more effectively.
+							</p>
+							<p data-i18n="project-details.ilo.about-p2">
+								This personal project reflects my strategy of achieving small goals to accomplish bigger objectives, 
+								demonstrating a deep understanding of the development lifecycle and mobile technologies.
+							</p>
+						</div>
+
+						<div class="project-section">
+							<h2 data-i18n="project-details.features">Key Features</h2>
+							<ul>
+								<li data-i18n="project-details.ilo.features.0">Interactive quizzes and exercises</li>
+								<li data-i18n="project-details.ilo.features.1">Progress tracking and statistics</li>
+								<li data-i18n="project-details.ilo.features.2">Offline mode for studying without internet</li>
+								<li data-i18n="project-details.ilo.features.3">Subject-based content organization</li>
+								<li data-i18n="project-details.ilo.features.4">Gamification elements to boost motivation</li>
+								<li data-i18n="project-details.ilo.features.5">Revision notes and summaries</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<div id="loader" class="load-active load-animate">
+			<div><span></span><span></span><span></span></div>
+		</div>
+		<script src="/js/bundle.js"></script>
+	</body>
+</html>

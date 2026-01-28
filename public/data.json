@@ -1,0 +1,975 @@
+{
+    "en": {
+        "error-title": "Sorry, something went wrong",
+        "error-button": "Reload page",
+        "error-message": "An unexpected error has occurred. Please reload the page.",
+        "error-module": "An unexpected error has occurred while loading modules. Please reload the page.",
+        "error-translations": "An unexpected error has occurred while loading translations. Please reload the page.",
+
+        "title": {
+            "about": "About &bull; Andhi Kenah",
+            "skills": "Skills &bull; Andhi Kenah",
+            "projects": "Projects &bull; Andhi Kenah",
+            "contact": "Contact &bull; Andhi Kenah"
+        },
+
+        "common": {
+            "learn-more": "Learn more",
+            "download-resume": "Download Resume",
+            "links": "Links",
+            "about": "About",
+            "skills": "Skills",
+            "projects": "Projects",
+            "contact": "Contact",
+            "home": "Home",
+            "interests": "Interests",
+            "contact-me": "Contact me",
+            "follow-me": "Follow me",
+            "not-available": "Not available",
+            "designed-built-by": "Designed and built by",
+            "rights": "Andhi Kenah &copy; Portfolio 2026. All rights reserved.",
+            "tags": {
+                "algorithms": "Algorithms"
+            }
+        },
+
+        "footer": {
+            "description-1": "Passionate developer, crafting unique and functional solutions.",
+            "description-2": "And skilled in creating modern web and mobile applications."
+        },
+
+        "home-page": {
+            "hero": {
+                "pros": ["modern", "perform", "secure", "scalable"],
+                "subtitle": "Passionate PHP & JS Developer and Junior Accountant.",
+                "action": {
+                    "contact-me": "Contact me",
+                    "see-all-projects": "See all projects"
+                }
+            },
+            "main-stacks": {
+                "title": "Main stack",
+                "subtitle": "I'm proficient in a variety of technologies, including:",
+                "see-all": "See all skills"
+            },
+            "what-i-do": {
+                "title": "What I do",
+                "web-dev": {
+                    "title": "Web Development",
+                    "text": "Create responsive and user-friendly websites using the latest technologies."
+                },
+                "backend-dev": {
+                    "title": "Backend Development",
+                    "text": "Build robust and scalable server-side applications using PHP and Node.js."
+                },
+                "financial": {
+                    "title": "Financial Analysis",
+                    "text": "Analyze financial data to help businesses make informed decisions."
+                },
+                "uiux": {
+                    "title": "UI/UX",
+                    "text": "Design user-friendly interfaces and experiences that enhance user satisfaction."
+                },
+                "responsive": {
+                    "title": "Responsive",
+                    "text": "Ensure designs are responsive and accessible across all devices."
+                },
+                "seo": {
+                    "title": "SEO optimization",
+                    "text": "Implement best practices for SEO to improve website visibility and ranking."
+                },
+                "forecasting": "Forecasting",
+                "reporting": "Reporting",
+                "reconciliation": "Reconciliation"
+            },
+            "latest-projects": {
+                "title": "Latest Projects",
+                "subtitle": "Projects that I have recently worked on:",
+                "see-all": "See all projects",
+                "social": {
+                    "type": "SaaS",
+                    "title": "Social generative content platform",
+                    "text": "Platform for generating social media content with AI, including user authentication and analytics."
+                },
+                "ilo": {
+                    "type": "Mobile application",
+                    "title": "Ilo app",
+                    "text": "Since 2020, ILO app has grown significantly, gaining over 100 users annually. It is a mobile learning and review application designed for tertiary-level students."
+                }
+            },
+            "why-me": {
+                "title": "Why choose me ?",
+                "items": {
+                    "collaborative": {
+                        "title": "Collaborative",
+                        "text": "I'm a strong advocate for teamwork and believe that collaboration leads to better outcomes. I enjoy working with others to solve problems and create innovative solutions."
+                    },
+                    "organized": {
+                        "title": "Organized",
+                        "text": "I'm highly organized and detail-oriented, which helps me manage my time effectively and meet deadlines. I believe that a well-structured approach is key to successful project execution."
+                    },
+                    "security": {
+                        "title": "Security",
+                        "text": "I'm committed to implementing best practices in security to protect user data and ensure privacy. I stay informed about the latest security threats and work proactively to mitigate risks."
+                    },
+                    "effective": {
+                        "title": "Effective",
+                        "text": "I'm dedicated to delivering high-quality work that meets the needs of my clients. I take the time to understand project requirements and strive for excellence in every aspect of my work."
+                    }
+                }
+            }
+        },
+
+        "about-page": {
+            "title": "About",
+            "experiences": "Experiences",
+            "certificates": "Certificates",
+            "certificates-subtitle": "Here are some of the certifications that I've obtained",
+            "certificates-dialogs": {
+                "php": {
+                    "title": "PHP Developer Certification",
+                    "description": "Certification validating PHP development skills, including object-oriented programming, modern frameworks, and development best practices."
+                },
+                "js": {
+                    "title": "Fullstack JavaScript Certification",
+                    "description": "Comprehensive full-stack JavaScript certification, covering frontend with React and backend with Node.js/Express."
+                }
+            },
+            "experience-dialog": {
+                "sections": {
+                    "description": "Description",
+                    "responsibilities": "Responsibilities",
+                    "technologies": "Technologies",
+                    "skills-gained": "Skills gained"
+                },
+                "skills": {
+                    "teamwork": "Teamwork",
+                    "agile-methodology": "Agile methodology",
+                    "problem-solving": "Problem solving",
+                    "communication": "Communication",
+                    "api-development": "API development",
+                    "software-architecture": "Software architecture",
+                    "documentation": "Documentation",
+                    "autonomy": "Autonomy"
+                }
+            },
+            "experiences-list": {
+                "etech": {
+                    "dates": "May 2025 - August 2025",
+                    "title": "Intern - PHP & JavaScript Developer",
+                    "company": "Etech Consulting",
+                    "description": "Developed an AI-powered content generation app, turning prompts into publish-ready content in under a minute.",
+                    "bullets": [
+                        "Full-stack web development with Laravel and React",
+                        "Integration of AI APIs for content generation",
+                        "Design and implementation of PostgreSQL databases",
+                        "Performance optimization for fast data processing",
+                        "Collaboration in an agile team",
+                        "Application testing and debugging"
+                    ]
+                },
+                "irari": {
+                    "dates": "August 2024 - October 2024",
+                    "title": "Intern - Full-Stack JavaScript Developer",
+                    "company": "IRARI",
+                    "description": "Developed a project management application with real-time features to improve team collaboration.",
+                    "bullets": [
+                        "Backend development with Node.js and Express.js",
+                        "Creation of RESTful APIs for project management",
+                        "MongoDB database implementation",
+                        "Frontend development with React",
+                        "Implementation of authentication and authorization systems",
+                        "Technical documentation and user training"
+                    ]
+                }
+            },
+            "bio": {
+                "p1": "I'm a Fullstack Developer specializing in web and mobile applications,",
+                "p2": "Fourth year in Computer Science at CNTEMAD University and Master Degree in Management and Finance at IMGAM.",
+                "p3": "Since 2020, I have developed three personal projects that highlight my ability to design and implement user-centered solutions. Each reflecting my strategy of achieving small goals to achieve a big goal and a deep understanding of the development lifecycle and each technology I used.",
+                "p4": "Then, I developed ILO app, a mobile application for terminal students, who are preparing for the tertiary technical baccalaureate exam to encourage them and help them learn even more.",
+                "p5": "Even the difficulty of management in small and medium-sized businesses, customer order management has a more convenient mobile application, Order Management.",
+                "p6": "As I launch my professional career, I am excited to bring my skills and enthusiasm to a dynamic team, contributing to projects that leverage cutting-edge technology to solve real-world problems."
+            },
+            "interests": {
+                "text": "In addition to my passion for development, I am interested in financial analysis, entrepreneurship, and emerging technologies. I also enjoy exploring different problem-solving approaches and discovering how technology can transform business processes."
+            }
+        },
+
+        "skills-page": {
+            "title": "Skills",
+            "subtitle": "I use these technologies and tools almost every day to consistently enhance my skills and knowledge in software and application development.",
+            "categories": {
+                "pl-runtime": "Programming Language and Runtime",
+                "frameworks": "Frameworks and Libraries",
+                "databases": "Databases",
+                "devops": "DevOps and Tools",
+                "systems": "Systems and Kernel",
+                "design": "Design",
+                "financial": "Financial and Accounting tools",
+                "reporting": "Reporting and Meeting"
+            },
+            "dialogs": {
+                "common": {
+                    "why-title": "Why I use it"
+                },
+                "typescript": {
+                    "description": "A strongly typed programming language that builds on JavaScript, giving better tooling at any scale.",
+                    "why": "TypeScript catches errors early through static type checking, improves code maintainability, and provides excellent IDE support for large-scale applications."
+                },
+                "php": {
+                    "description": "A popular general-purpose scripting language especially suited to web development.",
+                    "why": "PHP powers a massive portion of the web with its simplicity, vast ecosystem (Laravel, Symfony), and excellent database integration capabilities."
+                },
+                "nodejs": {
+                    "description": "A JavaScript runtime built on Chrome's V8 engine for building fast and scalable network applications.",
+                    "why": "Node.js enables full-stack JavaScript development, offers excellent performance for I/O operations, and has an enormous npm ecosystem."
+                },
+                "rust": {
+                    "description": "A systems programming language focused on safety, speed, and concurrency without a garbage collector.",
+                    "why": "Rust provides memory safety guarantees, zero-cost abstractions, and excellent performance for systems-level programming."
+                },
+                "c": {
+                    "description": "A foundational programming language providing low-level access to memory and hardware.",
+                    "why": "C offers unmatched control over system resources, is essential for embedded systems, and helps understand how computers work at a fundamental level."
+                },
+                "laravel": {
+                    "description": "An elegant PHP framework for web artisans with expressive syntax and powerful features.",
+                    "why": "Laravel accelerates development with Eloquent ORM, Blade templates, built-in authentication, and a thriving ecosystem."
+                },
+                "symfony": {
+                    "description": "A set of reusable PHP components and a framework for building robust applications.",
+                    "why": "Symfony provides enterprise-grade architecture, promotes best practices, and offers excellent long-term support for large applications."
+                },
+                "expressjs": {
+                    "description": "A minimal and flexible Node.js web application framework for building APIs and web apps.",
+                    "why": "Express.js is lightweight, unopinionated, and perfect for building RESTful APIs with middleware support."
+                },
+                "axum": {
+                    "description": "A web application framework for Rust that focuses on ergonomics and modularity.",
+                    "why": "Axum leverages Rust's type system for safety, offers excellent async performance, and integrates seamlessly with the Tokio ecosystem."
+                },
+                "reactjs": {
+                    "description": "A JavaScript library for building user interfaces with reusable components.",
+                    "why": "React's component-based architecture, virtual DOM, and vast ecosystem make it ideal for building modern, interactive UIs."
+                },
+                "tailwindcss": {
+                    "description": "A utility-first CSS framework for rapidly building custom user interfaces.",
+                    "why": "Tailwind enables rapid UI development with consistent design tokens, eliminates CSS bloat, and offers excellent customization."
+                },
+                "postgresql": {
+                    "description": "A powerful, open source object-relational database system with strong reliability.",
+                    "why": "PostgreSQL offers advanced features like JSONB, full-text search, and excellent data integrity for complex applications."
+                },
+                "mysql": {
+                    "description": "The world's most popular open source relational database management system.",
+                    "why": "MySQL is reliable, well-documented, and widely supported across hosting platforms and frameworks."
+                },
+                "mongodb": {
+                    "description": "A document-based NoSQL database designed for modern application development.",
+                    "why": "MongoDB excels at handling unstructured data, offers flexible schemas, and scales horizontally with ease."
+                },
+                "sqlite": {
+                    "description": "A self-contained, serverless SQL database engine that's lightweight and fast.",
+                    "why": "SQLite is perfect for embedded applications, development, and scenarios where simplicity matters."
+                },
+                "docker": {
+                    "description": "A platform for developing, shipping, and running applications in containers.",
+                    "why": "Docker ensures consistent environments across development and production, simplifies deployment, and improves scalability."
+                },
+                "git": {
+                    "description": "A distributed version control system for tracking changes in source code.",
+                    "why": "Git is essential for collaboration, maintains complete project history, and enables efficient branching workflows."
+                },
+                "github": {
+                    "description": "A platform for hosting and collaborating on Git repositories with integrated CI/CD.",
+                    "why": "GitHub provides excellent collaboration tools, Actions for automation, and serves as my portfolio for open source work."
+                },
+                "firebase": {
+                    "description": "A comprehensive app development platform by Google with real-time database and auth.",
+                    "why": "Firebase accelerates development with authentication, real-time sync, hosting, and analytics in one platform."
+                },
+                "linux": {
+                    "description": "An open-source operating system kernel powering servers, containers, and development environments.",
+                    "why": "Linux offers unmatched flexibility, security, and is the foundation for most production servers and cloud infrastructure."
+                },
+                "windows": {
+                    "description": "Microsoft's operating system widely used for desktop development and enterprise applications.",
+                    "why": "Windows provides excellent IDE support, WSL2 for Linux compatibility, and is essential for cross-platform testing."
+                },
+                "android": {
+                    "description": "Google's mobile operating system for building and deploying mobile applications.",
+                    "why": "Android's open ecosystem and market share make it essential for mobile development and testing."
+                },
+                "figma": {
+                    "description": "A collaborative interface design tool for creating UI/UX designs and prototypes.",
+                    "why": "Figma enables real-time collaboration, maintains design consistency, and bridges the gap between design and development."
+                },
+                "msword": {
+                    "description": "A word processor for creating professional documents, reports, and business correspondence.",
+                    "why": "Word is essential for creating financial reports, proposals, and maintaining professional documentation standards."
+                },
+                "msexcel": {
+                    "description": "A powerful spreadsheet application for financial analysis, data management, and reporting.",
+                    "why": "Excel is indispensable for financial modeling, budgeting, pivot tables, and complex data analysis in accounting."
+                },
+                "googlesheets": {
+                    "description": "A cloud-based spreadsheet application with real-time collaboration features.",
+                    "why": "Google Sheets enables team collaboration, integrates with other Google services, and is accessible from anywhere."
+                },
+                "sage": {
+                    "description": "A comprehensive accounting and business management software solution.",
+                    "why": "Sage provides robust financial management tools, making it ideal for managing business finances and operations."
+                },
+                "r": {
+                    "description": "A programming language and environment for statistical computing and graphics.",
+                    "why": "R is essential for data analysis, statistical modeling, and creating visualizations in my projects."
+                }
+            },
+            "interests": {
+                "text": "I'm interested in exploring new technologies and frameworks, as well as staying up-to-date with industry trends. In my free time, I enjoy working on personal projects."
+            }
+        },
+
+        "projects-page": {
+            "title": "Projects",
+            "subtitle": "I've created management tools and platforms, such as interactive e-learning and project management systems.",
+            "items": {
+                "portfolio": {
+                    "type": "Web",
+                    "title": "My own portfolio",
+                    "text": "Built my portfolio with a responsive design, dark mode, and multi-language support and automated deployment."
+                },
+                "social": {
+                    "type": "SaaS",
+                    "title": "Social media generative content platform",
+                    "text": "Platform for generating social media content with AI, including user authentication and analytics."
+                },
+                "ilo": {
+                    "type": "Mobile",
+                    "title": "Ilo app",
+                    "text": "An interactive e-learning platform designed to enhance student engagement and learning outcomes."
+                },
+                "pm-ong": {
+                    "type": "SaaS",
+                    "title": "Project management for ONG",
+                    "text": "A web-based project management tool that helps teams collaborate and track progress efficiently."
+                },
+                "order": {
+                    "type": "Mobile",
+                    "title": "Order management",
+                    "text": "A financial accounting system that streamlines bookkeeping and reporting for small businesses."
+                }
+            },
+            "interests": {
+                "text": "I'm particularly interested in projects that combine technological innovation with real-world impact. I enjoy experimenting with new architectures and building solutions that simplify the lives of users."
+            }
+        },
+
+        "contact-page": {
+            "title": "Contact me",
+            "subtitle": "Interested in collaborating or simply reaching out ? You can connect with me using the form below or via my social media channels.",
+            "form": {
+                "legend": "Reach out",
+                "name": "Name",
+                "name-placeholder": "Enter your name",
+                "email": "Email",
+                "email-placeholder": "Enter your email address",
+                "message": "Message",
+                "message-placeholder": "Share your ideas or inquiries here...",
+                "send": "Send",
+                "sending": "Sending..."
+            },
+            "connect": {
+                "title": "Connect with me",
+                "linkedin": "LinkedIn",
+                "whatsapp": "WhatsApp",
+                "github": "GitHub",
+                "email": "Email"
+            },
+            "notifications": {
+                "form-success": "✓ Message sent successfully! I will get back to you soon.",
+                "form-error": "✗ Failed to send message. Please try again or contact me directly.",
+                "form-error-empty": "✗ Please fill in all fields.",
+                "form-error-email": "✗ Please enter a valid email address."
+            }
+        },
+
+        "project-details": {
+            "back": "Back to all projects",
+            "about": "About this project",
+            "features": "Key Features",
+            "links": "Links",
+            "view-source": "View Source",
+            "live-demo": "Live Demo",
+            "portfolio": {
+                "type": "Web",
+                "title": "My own portfolio",
+                "subtitle": "Personal portfolio website showcasing my skills and projects",
+                "about-p1": "Built from scratch with a responsive design, dark mode, and multi-language support. This portfolio uses modern web technologies and automated deployment via GitHub Actions.",
+                "about-p2": "The website features smooth animations, a custom dialog system for displaying details, and is fully optimized for performance and accessibility.",
+                "features": [
+                    "Responsive design for all devices",
+                    "Dark/Light theme toggle with smooth transitions",
+                    "Multi-language support (English/French)",
+                    "Custom CSS animations",
+                    "Dialog system for viewing details",
+                    "Automated deployment with GitHub Actions"
+                ]
+            },
+            "social": {
+                "type": "SaaS",
+                "title": "Social Generative Content Platform",
+                "subtitle": "AI-powered content generation for social media marketing",
+                "about-p1": "A comprehensive SaaS platform for generating social media content using artificial intelligence. The platform transforms simple prompts into ready-to-publish content in less than a minute.",
+                "about-p2": "Built during my internship at Etech Consulting, this project showcases full-stack development with modern technologies and AI integration.",
+                "features": [
+                    "AI-powered content generation from prompts",
+                    "User authentication and role management",
+                    "Analytics dashboard for tracking content performance",
+                    "Multi-platform content formatting (Twitter, LinkedIn, Instagram)",
+                    "Content scheduling and automation",
+                    "Team collaboration features"
+                ]
+            },
+            "ilo": {
+                "type": "Mobile",
+                "title": "ILO App",
+                "subtitle": "E-learning platform for baccalaureate exam preparation",
+                "about-p1": "ILO App is a mobile application designed for terminal students preparing for the tertiary technical baccalaureate exam. The app aims to encourage students and help them learn more effectively.",
+                "about-p2": "This personal project reflects my strategy of achieving small goals to accomplish bigger objectives, demonstrating a deep understanding of the development lifecycle and mobile technologies.",
+                "features": [
+                    "Interactive quizzes and exercises",
+                    "Progress tracking and statistics",
+                    "Offline mode for studying without internet",
+                    "Subject-based content organization",
+                    "Gamification elements to boost motivation",
+                    "Revision notes and summaries"
+                ]
+            },
+            "pm-ong": {
+                "type": "SaaS",
+                "title": "Project Management for ONG",
+                "subtitle": "Collaborative project tracking for non-governmental organizations",
+                "about-p1": "A web-based project management tool designed specifically for NGOs to help teams collaborate and track progress efficiently. Built during my internship at IRARI.",
+                "about-p2": "The platform provides real-time collaboration features, task management, and comprehensive reporting tools tailored to the needs of non-profit organizations.",
+                "features": [
+                    "Real-time collaboration with Socket.io",
+                    "Task and milestone tracking",
+                    "Team management and role-based access",
+                    "Progress reporting and analytics",
+                    "Realtime messaging",
+                    "Notification system for updates"
+                ]
+            },
+            "order": {
+                "type": "Mobile",
+                "title": "Order Management",
+                "subtitle": "Cross-platform order management for small businesses",
+                "about-p1": "A mobile application designed to simplify customer order management for small and medium-sized businesses. The app addresses the difficulty of management in SMBs by providing a convenient mobile solution.",
+                "about-p2": "Built with React Native for cross-platform compatibility, this app runs seamlessly on both Android and iOS devices.",
+                "features": [
+                    "Customer order creation and tracking",
+                    "Product catalog management",
+                    "Invoice generation and export",
+                    "Customer database with contact history",
+                    "Sales reports and analytics",
+                    "Offline mode with data synchronization"
+                ]
+            }
+        }
+    },
+    "fr": {
+        "error-title": "Désolé, une erreur s'est produite",
+        "error-button": "Recharger la page",
+        "error-message": "Une erreur inattendue s'est produite. Veuillez actualiser la page.",
+        "error-module": "Une erreur inattendue s'est produite lors du chargement des modules. Veuillez actualiser la page.",
+        "error-translations": "Une erreur inattendue s'est produite lors du chargement des traductions. Veuillez actualiser la page.",
+
+        "title": {
+            "about": "À propos &bull; Andhi Kenah",
+            "skills": "Compétences &bull; Andhi Kenah",
+            "projects": "Projets &bull; Andhi Kenah",
+            "contact": "Contact &bull; Andhi Kenah"
+        },
+
+        "common": {
+            "learn-more": "En savoir plus",
+            "download-resume": "Télécharger mon CV",
+            "links": "Liens",
+            "about": "À propos",
+            "skills": "Compétences",
+            "projects": "Projets",
+            "contact": "Contact",
+            "home": "Accueil",
+            "interests": "Centres d'intérêt",
+            "contact-me": "Me contacter",
+            "follow-me": "Me suivre",
+            "not-available": "Non disponible",
+            "designed-built-by": "Conçu et développé par",
+            "rights": "Andhi Kenah &copy; Portfolio 2026. Tous droits réservés.",
+            "tags": {
+                "symfony": "Symfony",
+                "oop": "POO",
+                "mvc": "MVC",
+                "postgresql": "PostgreSQL",
+                "rest-api": "API REST",
+                "git": "Git",
+                "docker": "Docker",
+                "scrum": "Scrum",
+                "javascript": "JavaScript",
+                "react": "ReactJS",
+                "node": "Node.js",
+                "express": "Express",
+                "mysql": "MySQL",
+                "algorithms": "Algorithmes"
+            }
+        },
+
+        "footer": {
+            "description-1": "Développeur passionné, créant des solutions uniques et fonctionnelles.",
+            "description-2": "Et compétent dans la création d'applications web et mobile modernes."
+        },
+
+        "home-page": {
+            "hero": {
+                "pros": ["moderne", "performant", "securisé", "maintenable"],
+                "subtitle": "Developpeur passionné PHP & JS et comptable junior.",
+                "action": {
+                    "contact-me": "Contactez moi",
+                    "see-all-projects": "Voir tous les projets"
+                }
+            },
+            "main-stacks": {
+                "title": "Stack principal",
+                "subtitle": "Je suis compétent sur plusieurs technologies, notamment :",
+                "see-all": "Voir toutes les compétences"
+            },
+            "what-i-do": {
+                "title": "Ce que je fais",
+                "web-dev": {
+                    "title": "Développement web",
+                    "text": "Créer des sites responsives et faciles à utiliser avec les dernières technologies."
+                },
+                "backend-dev": {
+                    "title": "Développement backend",
+                    "text": "Construire des applications serveur robustes et évolutives avec PHP et Node.js."
+                },
+                "financial": {
+                    "title": "Analyse financière",
+                    "text": "Analyser les données financières pour aider les entreprises à prendre de meilleures décisions."
+                },
+                "uiux": {
+                    "title": "UI/UX",
+                    "text": "Concevoir des interfaces et expériences utilisateur qui améliorent la satisfaction."
+                },
+                "responsive": {
+                    "title": "Responsive",
+                    "text": "S'assurer que les designs sont responsives et accessibles sur tous les appareils."
+                },
+                "seo": {
+                    "title": "Optimisation SEO",
+                    "text": "Appliquer les bonnes pratiques SEO pour améliorer la visibilité et le classement."
+                },
+                "forecasting": "Prévisions",
+                "reporting": "Reporting",
+                "reconciliation": "Réconciliation"
+            },
+            "latest-projects": {
+                "title": "Derniers projets",
+                "subtitle": "Projets sur lesquels j'ai récemment travaillé :",
+                "see-all": "Voir tous les projets",
+                "social": {
+                    "type": "SaaS",
+                    "title": "Plateforme de génération de contenu social",
+                    "text": "Plateforme pour générer du contenu pour les réseaux sociaux avec l'IA, incluant authentification et analytics."
+                },
+                "ilo": {
+                    "type": "Application mobile",
+                    "title": "Ilo app",
+                    "text": "Depuis 2020, l'application ILO a beaucoup grandi, avec plus de 100 utilisateurs gagnés chaque année. C'est une application mobile de cours et révisions destinée aux étudiants du cycle supérieur."
+                }
+            },
+            "why-me": {
+                "title": "Pourquoi me choisir ?",
+                "items": {
+                    "collaborative": {
+                        "title": "Collaboratif",
+                        "text": "Je suis un fervent partisan du travail d'équipe et je crois que la collaboration mène à de meilleurs résultats. J'aime travailler avec les autres pour résoudre des problèmes et créer des solutions innovantes."
+                    },
+                    "organized": {
+                        "title": "Organisé",
+                        "text": "Je suis très organisé et attentif aux détails, ce qui m'aide à gérer mon temps efficacement et à respecter les délais. Je pense qu'une approche bien structurée est la clé d'une exécution réussie."
+                    },
+                    "security": {
+                        "title": "Sécurité",
+                        "text": "Je m'engage à appliquer les bonnes pratiques en matière de sécurité pour protéger les données des utilisateurs et garantir la confidentialité. Je reste informé des dernières menaces et j'agis de manière proactive pour réduire les risques."
+                    },
+                    "effective": {
+                        "title": "Efficace",
+                        "text": "Je suis déterminé à livrer un travail de haute qualité qui répond aux besoins de mes clients. Je prends le temps de comprendre les exigences et je vise l'excellence dans chaque aspect de mon travail."
+                    }
+                }
+            }
+        },
+
+        "about-page": {
+            "title": "À propos",
+            "experiences": "Expériences",
+            "certificates": "Certificats",
+            "certificates-subtitle": "Voici quelques certifications que j'ai obtenues",
+            "certificates-dialogs": {
+                "php": {
+                    "title": "Certification Développeur PHP",
+                    "description": "Certification validant les compétences en développement PHP, incluant la programmation orientée objet, les frameworks modernes et les bonnes pratiques de développement."
+                },
+                "js": {
+                    "title": "Certification JavaScript Fullstack",
+                    "description": "Certification complète en développement JavaScript fullstack, couvrant le frontend avec React et le backend avec Node.js/Express."
+                }
+            },
+            "experience-dialog": {
+                "sections": {
+                    "description": "Description",
+                    "responsibilities": "Responsabilités",
+                    "technologies": "Technologies",
+                    "skills-gained": "Compétences acquises"
+                },
+                "skills": {
+                    "teamwork": "Travail d'équipe",
+                    "agile-methodology": "Méthodologie agile",
+                    "problem-solving": "Résolution de problèmes",
+                    "communication": "Communication",
+                    "api-development": "Développement d'API",
+                    "software-architecture": "Architecture logicielle",
+                    "documentation": "Documentation",
+                    "autonomy": "Autonomie"
+                }
+            },
+            "experiences-list": {
+                "etech": {
+                    "dates": "Mai 2025 - Août 2025",
+                    "title": "Stagiaire - Développeur PHP & JavaScript",
+                    "company": "Etech Consulting",
+                    "description": "Développement d'une application de génération de contenu alimentée par l'IA, transformant les prompts en contenu prêt à publier en moins d'une minute.",
+                    "bullets": [
+                        "Développement d'applications web full-stack avec PHP Laravel et React",
+                        "Intégration d'APIs d'intelligence artificielle pour la génération de contenu",
+                        "Conception et implémentation de bases de données PostgreSQL",
+                        "Optimisation des performances pour le traitement rapide des données",
+                        "Collaboration en équipe agile avec des développeurs",
+                        "Tests et débogage d'applications"
+                    ]
+                },
+                "irari": {
+                    "dates": "Août 2024 - Octobre 2024",
+                    "title": "Stagiaire - Développeur Full-Stack JavaScript",
+                    "company": "IRARI",
+                    "description": "Développement d'une application de gestion de projets avec des fonctionnalités temps réel pour améliorer la collaboration en équipe.",
+                    "bullets": [
+                        "Développement backend avec Node.js et Express.js",
+                        "Création d'APIs RESTful pour la gestion de projets",
+                        "Implémentation de la base de données MongoDB",
+                        "Développement frontend avec React pour l'interface utilisateur",
+                        "Mise en place de systèmes d'authentification et d'autorisation",
+                        "Documentation technique et formation des utilisateurs"
+                    ]
+                }
+            },
+            "bio": {
+                "p1": "Je suis un développeur Fullstack spécialisé dans les applications web et mobile,",
+                "p2": "En quatrième année d'informatique à l'université CNTEMAD et titulaire d'un Master en Management et Finance à l'IMGAM.",
+                "p3": "Depuis 2020, j'ai développé trois projets personnels qui mettent en avant ma capacité à concevoir et implémenter des solutions centrées utilisateur. Chaque projet reflète ma stratégie : atteindre de petits objectifs pour réaliser un grand, ainsi qu'une bonne maîtrise du cycle de vie de développement et des technologies utilisées.",
+                "p4": "Ensuite, j'ai développé ILO, une application mobile destinée aux élèves de Terminale préparant le baccalauréat technique tertiaire, pour les encourager et les aider à apprendre davantage.",
+                "p5": "Face aussi aux difficultés de gestion dans les petites et moyennes entreprises, j'ai conçu une application plus pratique pour la gestion des commandes clients : Order Management.",
+                "p6": "Alors que je lance ma carrière professionnelle, je suis enthousiaste à l'idée d'apporter mes compétences et mon énergie à une équipe dynamique, et de contribuer à des projets qui tirent parti de technologies de pointe pour résoudre des problèmes concrets."
+            },
+            "interests": {
+                "text": "En plus de ma passion pour le développement, je m'intéresse à l'analyse financière, à l'entrepreneuriat et aux nouvelles technologies émergentes. J'aime également explorer différentes approches de résolution de problèmes et découvrir comment la technologie peut transformer les processus métier."
+            }
+        },
+
+        "skills-page": {
+            "title": "Compétences",
+            "subtitle": "J'utilise ces technologies et outils presque tous les jours pour améliorer mes compétences et mes connaissances en développement logiciel et applicatif.",
+            "categories": {
+                "pl-runtime": "Langages de programmation et Runtime",
+                "frameworks": "Frameworks et Bibliothèques",
+                "databases": "Bases de données",
+                "devops": "DevOps et Outils",
+                "systems": "Systèmes et Noyau",
+                "design": "Design",
+                "financial": "Outils financiers et comptables",
+                "reporting": "Reporting et Réunions"
+            },
+            "dialogs": {
+                "common": {
+                    "why-title": "Pourquoi je l'utilise"
+                },
+                "typescript": {
+                    "description": "Un langage fortement typé basé sur JavaScript, offrant de meilleurs outils à n'importe quelle échelle.",
+                    "why": "TypeScript détecte les erreurs tôt grâce au typage statique, améliore la maintenabilité du code et offre un excellent support IDE pour les applications à grande échelle."
+                },
+                "php": {
+                    "description": "Un langage de script polyvalent, particulièrement adapté au développement web.",
+                    "why": "PHP alimente une grande partie du web grâce à sa simplicité, son vaste écosystème (Laravel, Symfony) et ses excellentes capacités d'intégration avec les bases de données."
+                },
+                "nodejs": {
+                    "description": "Un runtime JavaScript basé sur le moteur V8 de Chrome, pour créer des applications réseau rapides et scalables.",
+                    "why": "Node.js permet le développement full-stack en JavaScript, offre d'excellentes performances pour l'I/O et bénéficie d'un énorme écosystème npm."
+                },
+                "rust": {
+                    "description": "Un langage système axé sur la sécurité, la vitesse et la concurrence sans ramasse-miettes.",
+                    "why": "Rust garantit la sécurité mémoire, propose des abstractions à coût nul et d'excellentes performances pour la programmation bas niveau."
+                },
+                "c": {
+                    "description": "Un langage fondamental offrant un accès bas niveau à la mémoire et au matériel.",
+                    "why": "Le C offre un contrôle total des ressources, est essentiel pour l'embarqué et aide à comprendre le fonctionnement interne des ordinateurs."
+                },
+                "laravel": {
+                    "description": "Un framework PHP élégant avec une syntaxe expressive et des fonctionnalités puissantes.",
+                    "why": "Laravel accélère le développement avec Eloquent ORM, Blade, une authentification intégrée et un écosystème riche."
+                },
+                "symfony": {
+                    "description": "Un ensemble de composants PHP réutilisables et un framework pour construire des applications robustes.",
+                    "why": "Symfony fournit une architecture de niveau entreprise, favorise les bonnes pratiques et propose un excellent support à long terme."
+                },
+                "expressjs": {
+                    "description": "Un framework web Node.js minimaliste et flexible pour créer des APIs et des applications web.",
+                    "why": "Express.js est léger, non-opinionated et parfait pour créer des APIs REST avec support middleware."
+                },
+                "axum": {
+                    "description": "Un framework web pour Rust axé sur l'ergonomie et la modularité.",
+                    "why": "Axum exploite le système de types de Rust, offre d'excellentes performances async et s'intègre parfaitement à l'écosystème Tokio."
+                },
+                "reactjs": {
+                    "description": "Une bibliothèque JavaScript pour créer des interfaces utilisateur via des composants réutilisables.",
+                    "why": "L'architecture par composants, le Virtual DOM et le vaste écosystème font de React un excellent choix pour des UIs modernes."
+                },
+                "tailwindcss": {
+                    "description": "Un framework CSS utility-first pour construire rapidement des interfaces sur mesure.",
+                    "why": "Tailwind accélère le développement UI, évite le CSS inutile et offre une excellente personnalisation."
+                },
+                "postgresql": {
+                    "description": "Une base de données objet-relationnelle open source, puissante et fiable.",
+                    "why": "PostgreSQL propose JSONB, full-text search et une excellente intégrité des données pour des applications complexes."
+                },
+                "mysql": {
+                    "description": "Le système de gestion de base de données relationnelle open source le plus populaire au monde.",
+                    "why": "MySQL est fiable, bien documenté et largement supporté par les hébergeurs et frameworks."
+                },
+                "mongodb": {
+                    "description": "Une base de données NoSQL orientée documents, conçue pour les applications modernes.",
+                    "why": "MongoDB gère bien les données non structurées, offre un schéma flexible et se scale horizontalement facilement."
+                },
+                "sqlite": {
+                    "description": "Un moteur SQL léger, autonome et sans serveur.",
+                    "why": "SQLite est idéal pour l'embarqué, le développement et les cas où la simplicité est clé."
+                },
+                "docker": {
+                    "description": "Une plateforme pour développer, livrer et exécuter des applications dans des conteneurs.",
+                    "why": "Docker garantit des environnements cohérents, simplifie le déploiement et améliore la scalabilité."
+                },
+                "git": {
+                    "description": "Un système de contrôle de version distribué pour suivre l'évolution du code.",
+                    "why": "Git est essentiel pour la collaboration, conserve l'historique complet et facilite les workflows de branches."
+                },
+                "github": {
+                    "description": "Une plateforme d'hébergement et de collaboration Git avec CI/CD intégré.",
+                    "why": "GitHub offre d'excellents outils de collaboration, Actions pour l'automatisation, et sert aussi de portfolio open source."
+                },
+                "firebase": {
+                    "description": "Une plateforme complète de développement d'applications par Google avec base temps réel et authentification.",
+                    "why": "Firebase accélère le développement avec auth, sync temps réel, hosting et analytics dans une seule plateforme."
+                },
+                "linux": {
+                    "description": "Un noyau open source qui propulse serveurs, conteneurs et environnements de dev.",
+                    "why": "Linux offre flexibilité, sécurité et constitue la base de la majorité des serveurs de production et du cloud."
+                },
+                "windows": {
+                    "description": "Le système d'exploitation de Microsoft, très utilisé pour le desktop et l'entreprise.",
+                    "why": "Windows fournit un excellent support IDE, WSL2 pour la compatibilité Linux et sert aux tests cross-platform."
+                },
+                "android": {
+                    "description": "Le système d'exploitation mobile de Google pour créer et déployer des applications mobiles.",
+                    "why": "L'écosystème ouvert et la forte part de marché d'Android en font un incontournable pour le dev mobile et les tests."
+                },
+                "figma": {
+                    "description": "Un outil collaboratif de design d'interface pour créer des maquettes et prototypes UI/UX.",
+                    "why": "Figma permet la collaboration en temps réel, maintient la cohérence du design et rapproche design et développement."
+                },
+                "msword": {
+                    "description": "Un traitement de texte pour créer des documents professionnels, rapports et correspondances.",
+                    "why": "Word est essentiel pour les rapports financiers, propositions et une documentation professionnelle."
+                },
+                "msexcel": {
+                    "description": "Un tableur puissant pour l'analyse financière, la gestion de données et le reporting.",
+                    "why": "Excel est indispensable pour les modèles financiers, budgets, tableaux croisés et analyses complexes en comptabilité."
+                },
+                "googlesheets": {
+                    "description": "Un tableur cloud avec des fonctionnalités de collaboration en temps réel.",
+                    "why": "Google Sheets facilite la collaboration, s'intègre aux services Google et reste accessible partout."
+                },
+                "sage": {
+                    "description": "Une solution complète de gestion d'entreprise et de comptabilité.",
+                    "why": "Sage fournit des outils solides de gestion financière, idéals pour piloter les finances et opérations d'une entreprise."
+                },
+                "r": {
+                    "description": "Un langage et environnement pour le calcul statistique et la visualisation.",
+                    "why": "R est essentiel pour l'analyse de données, la modélisation statistique et la création de visualisations dans mes projets."
+                }
+            },
+            "interests": {
+                "text": "Je m'intéresse à découvrir de nouvelles technologies et frameworks, ainsi qu'à rester à jour sur les tendances du secteur. Pendant mon temps libre, j'aime travailler sur des projets personnels."
+            }
+        },
+
+        "projects-page": {
+            "title": "Projets",
+            "subtitle": "J'ai créé des outils de gestion et des plateformes, comme des systèmes d'e-learning interactifs et de gestion de projets.",
+            "items": {
+                "portfolio": {
+                    "type": "Web",
+                    "title": "Mon portfolio",
+                    "text": "J'ai construit mon portfolio avec un design responsive, un mode sombre, le multilingue et un déploiement automatisé."
+                },
+                "social": {
+                    "type": "SaaS",
+                    "title": "Plateforme de génération de contenu des réseaux sociaux",
+                    "text": "Plateforme pour générer du contenu des réseaux sociaux avec l'IA, incluant authentification et analytics."
+                },
+                "ilo": {
+                    "type": "Mobile",
+                    "title": "Ilo app",
+                    "text": "Une plateforme e-learning interactive conçue pour améliorer l'engagement et les résultats des étudiants."
+                },
+                "pm-ong": {
+                    "type": "SaaS",
+                    "title": "Gestion de projet pour ONG",
+                    "text": "Un outil web de gestion de projet qui aide les équipes à collaborer et suivre l'avancement efficacement."
+                },
+                "order": {
+                    "type": "Mobile",
+                    "title": "Gestion des commandes",
+                    "text": "Un système comptable qui simplifie la tenue des comptes et le reporting pour les petites entreprises."
+                }
+            },
+            "interests": {
+                "text": "Je m'intéresse particulièrement aux projets qui combinent innovation technologique et impact réel. J'aime expérimenter avec de nouvelles architectures et créer des solutions qui simplifient la vie des utilisateurs."
+            }
+        },
+
+        "contact-page": {
+            "title": "Contact",
+            "subtitle": "Besoin de collaborer ou simplement de me contacter ? Vous pouvez me joindre via le formulaire ci-dessous ou mes réseaux sociaux.",
+            "form": {
+                "legend": "Me contacter",
+                "name": "Nom",
+                "name-placeholder": "Entrer votre nom",
+                "email": "Email",
+                "email-placeholder": "Entrer votre adresse email",
+                "message": "Message",
+                "message-placeholder": "Partagez vos idées ou vos questions ici...",
+                "send": "Envoyer",
+                "sending": "Envoi en cours..."
+            },
+            "connect": {
+                "title": "Restons connectés",
+                "linkedin": "LinkedIn",
+                "whatsapp": "WhatsApp",
+                "github": "GitHub",
+                "email": "Email"
+            },
+            "notifications": {
+                "form-success": "✓ Message envoyé avec succès ! Je vous répondrai bientôt.",
+                "form-error": "✗ Échec de l'envoi du message. Veuillez réessayer ou me contacter directement.",
+                "form-error-empty": "✗ Veuillez remplir tous les champs.",
+                "form-error-email": "✗ Veuillez entrer une adresse email valide."
+            }
+        },
+
+        "project-details": {
+            "back": "Retour à tous les projets",
+            "about": "À propos de ce projet",
+            "features": "Fonctionnalités clés",
+            "links": "Liens",
+            "view-source": "Code source",
+            "live-demo": "Démo",
+            "portfolio": {
+                "type": "Web",
+                "title": "Mon portfolio",
+                "subtitle": "Site web personnel présentant mes compétences et projets",
+                "about-p1": "Construit de zéro avec un design responsive, mode sombre et support multilingue. Ce portfolio utilise des technologies web modernes et un déploiement automatisé via GitHub Actions.",
+                "about-p2": "Le site propose des animations fluides, un système de dialogue personnalisé pour afficher les détails, et est entièrement optimisé pour les performances et l'accessibilité.",
+                "features": [
+                    "Design responsive pour tous les appareils",
+                    "Basculement thème clair/sombre avec transitions fluides",
+                    "Support multilingue (Anglais/Français)",
+                    "Animations CSS personnalisées",
+                    "Système de dialogue pour voir les détails",
+                    "Déploiement automatisé avec GitHub Actions"
+                ]
+            },
+            "social": {
+                "type": "SaaS",
+                "title": "Plateforme de génération de contenu social",
+                "subtitle": "Génération de contenu alimentée par l'IA pour le marketing sur les réseaux sociaux",
+                "about-p1": "Une plateforme SaaS complète pour générer du contenu pour les réseaux sociaux en utilisant l'intelligence artificielle. La plateforme transforme de simples prompts en contenu prêt à publier en moins d'une minute.",
+                "about-p2": "Construit pendant mon stage chez Etech Consulting, ce projet met en avant le développement full-stack avec des technologies modernes et l'intégration de l'IA.",
+                "features": [
+                    "Génération de contenu alimentée par l'IA à partir de prompts",
+                    "Authentification utilisateur et gestion des rôles",
+                    "Tableau de bord analytique pour suivre les performances du contenu",
+                    "Formatage de contenu multi-plateforme (Twitter, LinkedIn, Instagram)",
+                    "Planification et automatisation du contenu",
+                    "Fonctionnalités de collaboration en équipe"
+                ]
+            },
+            "ilo": {
+                "type": "Mobile",
+                "title": "ILO App",
+                "subtitle": "Plateforme d'e-learning pour la préparation au baccalauréat",
+                "about-p1": "ILO App est une application mobile conçue pour les élèves de Terminale qui se préparent au baccalauréat technique tertiaire. L'application vise à encourager les étudiants et à les aider à apprendre plus efficacement.",
+                "about-p2": "Ce projet personnel reflète ma stratégie : atteindre de petits objectifs pour accomplir de plus grands, démontrant une bonne compréhension du cycle de vie du développement et des technologies mobiles.",
+                "features": [
+                    "Quiz et exercices interactifs",
+                    "Suivi des progrès et statistiques",
+                    "Mode hors ligne pour étudier sans internet",
+                    "Organisation du contenu par matière",
+                    "Éléments de gamification pour booster la motivation",
+                    "Notes de révision et résumés"
+                ]
+            },
+            "pm-ong": {
+                "type": "SaaS",
+                "title": "Gestion de projet pour ONG",
+                "subtitle": "Suivi collaboratif de projets pour organisations non gouvernementales",
+                "about-p1": "Un outil web de gestion de projets spécialement conçu pour les ONG afin d'aider les équipes à collaborer et suivre l'avancement efficacement. Construit pendant mon stage chez IRARI.",
+                "about-p2": "La plateforme offre des fonctionnalités de collaboration en temps réel, de gestion des tâches et des outils de reporting complets adaptés aux besoins des organisations à but non lucratif.",
+                "features": [
+                    "Collaboration en temps réel avec Socket.io",
+                    "Suivi des tâches et jalons",
+                    "Gestion d'équipe et accès basé sur les rôles",
+                    "Reporting et analytique des progrès",
+                    "Messagerie en temps réel",
+                    "Système de notifications pour les mises à jour"
+                ]
+            },
+            "order": {
+                "type": "Mobile",
+                "title": "Gestion des commandes",
+                "subtitle": "Gestion de commandes multi-plateforme pour petites entreprises",
+                "about-p1": "Une application mobile conçue pour simplifier la gestion des commandes clients pour les petites et moyennes entreprises. L'application répond aux difficultés de gestion dans les PME en offrant une solution mobile pratique.",
+                "about-p2": "Construite avec React Native pour la compatibilité multi-plateforme, cette application fonctionne parfaitement sur les appareils Android et iOS.",
+                "features": [
+                    "Création et suivi des commandes clients",
+                    "Gestion du catalogue de produits",
+                    "Génération et export de factures",
+                    "Base de données clients avec historique des contacts",
+                    "Rapports de ventes et analytique",
+                    "Mode hors ligne avec synchronisation des données"
+                ]
+            }
+        }
+    }
+}

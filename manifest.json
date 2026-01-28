@@ -1,0 +1,12 @@
+{
+    "name": "Andhi Kenah - Portfolio",
+    "short_name": "Andhi Kenah",
+    "version": "1.0.0",
+    "description": "A portfolio website showcasing the work of Andhi Kenah.",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "orientation": "portrait",
+    "dir": "ltr"
+}

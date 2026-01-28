@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html class="dark">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+		<link
+			rel="shortcut icon"
+			href="/public/favicon.ico"
+			type="image/x-icon"
+		/>
+
+		<link rel="stylesheet" href="/css/style.css" />
+
+		<title data-i18n="title.contact">Andhi Kenah</title>
+
+        <meta name="title" content="Andhi Kenah | Full-Stack Developer & Financial Account Manager" />
+		<meta name="description" content="Professional full-stack developer specializing in PHP, JavaScript, and React. Experienced financial account manager with expertise in business analysis. Based in Madagascar." />
+		<meta name="keywords" content="Andhi Kenah, Full-Stack Developer, PHP Developer, JavaScript Developer, React Developer, Laravel, Node.js, Financial Manager, Account Manager, Web Development, Mobile Development, Madagascar Developer, Freelance Developer, Business Analyst" />
+		<meta name="author" content="Andhi Kenah" />
+		<meta name="robots" content="index, follow" />
+		<meta name="language" content="English, Français" />
+		<meta name="revisit-after" content="7 days" />
+
+		<meta name="theme-color" content="#1b62dd" media="(prefers-color-scheme: light)" />
+		<meta name="theme-color" content="#3c7cea" media="(prefers-color-scheme: dark)" />
+
+		<meta name="apple-mobile-web-app-title" content="Andhi Kenah" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<link rel="manifest" href="/manifest.json" />
+	</head>
+	<body>
+		<header>
+			<div>
+				<div class="header-left">
+					<a href="/">
+						<div class="header-name">
+							<span>A</span><span class="header-name-full">ndhi </span
+							><span>K</span><span class="header-name-full">enah</span>
+						</div>
+					</a>
+				</div>
+				<nav>
+					<ul>
+						<li>
+							<a href="/about.html">
+								<div>
+									<span data-i18n="common.about">About</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/skills.html">
+								<div>
+									<span data-i18n="common.skills">Skills</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/projects.html">
+								<div>
+									<span data-i18n="common.projects">Projects</span>
+								</div>
+							</a>
+						</li>
+						<li class="nav-active">
+							<a href="/contact.html">
+								<div>
+									<span data-i18n="common.contact">Contact</span>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header-right">
+					<div class="header-mobile">
+						<button id="menu-toggle">
+							<img id="menu-icon" src="/public/ionicons/menu-outline.svg" alt="Menu" width="24" height="24" />
+						</button>
+					</div>
+					<div class="preferences">
+						<div class="preferences-lang">
+							<select name="lang" id="lang-select">
+								<option value="en">🇺🇸 EN</option>
+								<option value="fr">🇫🇷 FR</option>
+							</select>
+						</div>
+						<button id="theme-toggle">
+							<div>
+								<img src="/public/ionicons/moon-outline.svg" alt="Toggle theme" width="18" height="18" />
+							</div>
+						</button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section id="contact">
+				<div>
+					<a href="#contact">
+						<h2 data-i18n="contact-page.title">Contact me</h2>
+					</a>
+                    <p data-i18n="contact-page.subtitle">
+                        Interested in collaborating or simply reaching out ? You can connect with me using the form below or via my social media channels.
+                    </p>
+					<div class="contact-form-container">
+						<form id="contact-form" method="POST">
+							
+							<input type="hidden" name="subject" value="New Contact from andhi-kenah">
+							
+							<input type="hidden" name="from_name" value="Portfolio Contact Form">
+							
+							<input type="checkbox" name="botcheck" style="display: none;">
+							
+							<fieldset>
+								<legend data-i18n="contact-page.form.legend">Reach out</legend>
+
+								<div id="form-message" class="form-message"></div>
+
+                                <div>
+                                    <label for="name" data-i18n="contact-page.form.name">Name</label>
+                                    <input type="text" id="name" name="name" data-i18n-placeholder="contact-page.form.name-placeholder" placeholder="Your name" required />
+                                </div>
+
+                                <div>
+                                    <label for="email" data-i18n="contact-page.form.email">Email</label>
+                                    <input type="email" id="email" name="email" data-i18n-placeholder="contact-page.form.email-placeholder" placeholder="Your email address" required />
+                                </div>
+
+                                <div>
+                                    <label for="message" data-i18n="contact-page.form.message">Message</label>
+                                    <textarea id="message" name="message" rows="4" data-i18n-placeholder="contact-page.form.message-placeholder" placeholder="Your message" spellcheck="false" required></textarea>
+                                </div>
+
+                                <div class="section-action">
+                                    <button type="submit">
+                                        <div class="btn-primary">
+                                            <strong data-i18n="contact-page.form.send">Send</strong>
+											<img src="/public/ionicons/send.svg" width="16" height="16" alt="Send" fetchpriority="high">
+                                        </div>
+                                    </button>
+                                </div>
+							</fieldset>
+
+						</form>
+					</div>
+				</div>
+			</section>
+            <section id="connect-with-me">
+                <div>
+                    <a href="#connect-with-me">
+						<h2 data-i18n="contact-page.connect.title">Connect with me</h2>
+					</a>
+                    <ul>
+                        <li>
+                            <a href="https://linkedin.com/in/andhikenah" target="_blank" rel="noopener">
+                                <img src="/public/ionicons/logo-linkedin.svg" alt="LinkedIn">
+                                <span data-i18n="contact-page.connect.linkedin">LinkedIn</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/+261340275694" target="_blank" rel="noopener">
+                                <img src="/public/ionicons/logo-whatsapp.svg" alt="WhatsApp">
+                                <span data-i18n="contact-page.connect.whatsapp">WhatsApp</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/andhi-kenah" target="_blank" rel="noopener">
+                                <img src="/public/ionicons/logo-github.svg" alt="GitHub">
+                                <span data-i18n="contact-page.connect.github">GitHub</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:andhiandrianina@gmail.com" target="_blank" rel="noopener">
+                                <img src="/public/ionicons/mail.svg" alt="Email">
+                                <span data-i18n="contact-page.connect.email">Email</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+		</main>
+		<footer>
+			<div>
+				<div class="footer-container">
+					<div class="footer-info">
+						<div class="footer-name">
+							<a href="/"><strong>ANDRIANINA Andhi Kenah</strong></a>
+						</div>
+						<div class="footer-speciality">
+							<span>Developer PHP &amp; JS, Accountant</span>
+						</div>
+						<div class="footer-description">
+							<p>
+								<i data-i18n="footer.description-1">Passionate developer with strong PHP &amp; JavaScript skills.</i>
+							</p>
+							<p>
+								<i data-i18n="footer.description-2">And skilled in account management and financial analysis.</i>
+							</p>
+						</div>
+						<div class="footer-cv">
+							<a href="/CV-AndhiKenah.pdf" target="_blank">
+								<div>
+									<span data-i18n="common.download-resume">Download Resume</span>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="footer-links">
+						<div class="footer-link">
+							<strong data-i18n="common.links">Links</strong>
+							<ul>
+								<li><a href="/"><span data-i18n="common.home">Home</span></a></li>
+								<li><a href="/about.html"><span data-i18n="common.about">About</span></a></li>
+								<li><a href="/skills.html"><span data-i18n="common.skills">Skills</span></a></li>
+								<li><a href="/projects.html"><span data-i18n="common.projects">Projects</span></a></li>
+								<li><a href="/contact.html"><span data-i18n="common.contact">Contact</span></a></li>
+							</ul>
+						</div>
+						<div class="footer-network">
+							<div>
+								<div>
+									<strong data-i18n="common.contact-me">Contact me</strong>
+								</div>
+								<ul>
+									<li>
+										<a href="https://linkedin.com/in/andhikenah" target="_blank" rel="noopener">
+											<img src="/public/ionicons/logo-linkedin.svg" alt="LinkedIn" />
+										</a>
+									</li>
+									<li>
+										<a href="https://wa.me/+261340275694" target="_blank" rel="noopener">
+											<img src="/public/ionicons/logo-whatsapp.svg" alt="WhatsApp" />
+										</a>
+									</li>
+									<li>
+										<a href="mailto:andhiandrianina@gmail.com" target="_blank" rel="noopener">
+											<img src="/public/ionicons/mail.svg" alt="Email" />
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div>
+								<div>
+									<strong data-i18n="common.follow-me">Follow me</strong>
+								</div>
+								<ul>
+									<li>
+										<a href="https://github.com/andhi-kenah" target="_blank" rel="noopener">
+											<img src="/public/ionicons/logo-github.svg" alt="GitHub" />
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-end">
+					<p data-i18n="footer.designed-built-by">Designed and built by <a href="/">Andhi Kenah</a></p>
+					<span data-i18n="footer.rights">Andhi Kenah &copy; Portfolio 2026. All rights reserved.</span>
+				</div>
+			</div>
+		</footer>
+		<div id="loader" class="load-active load-animate">
+			<div><span></span><span></span><span></span></div>
+		</div>
+		<script src="/js/bundle.js"></script>
+	</body>
+</html>

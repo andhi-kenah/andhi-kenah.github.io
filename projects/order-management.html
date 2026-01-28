@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html class="dark">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+		<link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="/css/style.css" />
+		<title>Order Management | Andhi Kenah</title>
+		<meta name="description" content="Mobile application for customer order management in small and medium-sized businesses." />
+	</head>
+	<body>
+		<header>
+			<div>
+				<div class="header-left">
+					<a href="/">
+						<div class="header-name">
+							<span>A</span><span class="header-name-full">ndhi </span
+							><span>K</span><span class="header-name-full">enah</span>
+						</div>
+					</a>
+				</div>
+				<nav>
+					<ul>
+						<li>
+							<a href="/about.html">
+								<div>
+									<span data-i18n="common.about">About</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/skills.html">
+								<div>
+									<span data-i18n="common.skills">Skills</span>
+								</div>
+							</a>
+						</li>
+						<li class="nav-subactive">
+							<a href="/projects.html">
+								<div>
+									<span data-i18n="common.projects">Projects</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/contact.html">
+								<div>
+									<span data-i18n="common.contact">Contact</span>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header-right">
+					<div class="header-mobile">
+						<button id="menu-toggle">
+							<img id="menu-icon" src="/public/ionicons/menu-outline.svg" alt="Menu" width="24" height="24" />
+						</button>
+					</div>
+					<div class="preferences">
+						<div class="preferences-lang">
+							<select name="lang" id="lang-select">
+								<option value="en">🇺🇸 EN</option>
+								<option value="fr">🇫🇷 FR</option>
+							</select>
+						</div>
+						<button id="theme-toggle">
+							<div>
+								<img src="/public/ionicons/moon-outline.svg" alt="Toggle theme" width="18" height="18" />
+							</div>
+						</button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section id="project-detail">
+				<div>
+                    <nav>
+                        <a href="/projects.html">
+                            <div>
+                                <img src="/public/ionicons/arrow-back.svg" alt="Back" width="20" height="20" />
+                                <span data-i18n="project-details.back">Back to all projects</span>
+                            </div>
+                        </a>
+                    </nav>
+					<div class="project-header">
+						<span class="project-category" data-i18n="project-details.order.type">Mobile</span>
+						<h1 data-i18n="project-details.order.title">Order Management</h1>
+						<p class="project-subtitle" data-i18n="project-details.order.subtitle">Cross-platform order management for small businesses</p>
+					</div>
+					
+					<div class="project-image">
+						<img loading="lazy" src="/public/images/screenshots/order-management.webp" alt="Order Management Screenshot" />
+					</div>
+
+					<div class="project-content">
+                        <div class="project-section">
+                            <div class="project-tech">
+                                <span>TypeScript</span>
+                                <span>React Native</span>
+                                <span>Firebase</span>
+                                <span>Android</span>
+                                <span>iOS</span>
+                            </div>
+                        </div>
+                        
+						<div class="project-section">
+							<h2 data-i18n="project-details.about">About this project</h2>
+							<p data-i18n="project-details.order.about-p1">
+								A mobile application designed to simplify customer order management for small and medium-sized 
+								businesses. The app addresses the difficulty of management in SMBs by providing a convenient 
+								mobile solution.
+							</p>
+							<p data-i18n="project-details.order.about-p2">
+								Built with React Native for cross-platform compatibility, this app runs seamlessly on both 
+								Android and iOS devices.
+							</p>
+						</div>
+
+						<div class="project-section">
+							<h2 data-i18n="project-details.features">Key Features</h2>
+							<ul>
+								<li data-i18n="project-details.order.features.0">Customer order creation and tracking</li>
+								<li data-i18n="project-details.order.features.1">Product catalog management</li>
+								<li data-i18n="project-details.order.features.2">Invoice generation and export</li>
+								<li data-i18n="project-details.order.features.3">Customer database with contact history</li>
+								<li data-i18n="project-details.order.features.4">Sales reports and analytics</li>
+								<li data-i18n="project-details.order.features.5">Offline mode with data synchronization</li>
+							</ul>
+						</div>
+
+						<div class="project-section">
+							<h2 data-i18n="project-details.links">Links</h2>
+							<div class="project-links">
+								<a href="https://github.com/andhi-kenah/order-management" target="_blank" rel="noopener" class="btn-outline">
+									<img src="/public/ionicons/logo-github.svg" alt="GitHub" width="18" height="18" />
+									<span data-i18n="project-details.view-source">View Source</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<div id="loader" class="load-active load-animate">
+			<div><span></span><span></span><span></span></div>
+		</div>
+		<script src="/js/bundle.js"></script>
+	</body>
+</html>
