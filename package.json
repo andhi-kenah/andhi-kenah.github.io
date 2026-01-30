@@ -1,11 +1,11 @@
 {
   "name": "andhi-kenah",
   "version": "1.0.0",
-  "main": "/bundle.js",
+  "main": "js/bundle.js",
   "scripts": {
     "build:css": "postcss src/style.css -o css/style.css",
     "watch:css": "postcss src/style.css -o css/style.css --watch",
-    "build:js": "tsc",
+    "build:js": "tsc && esbuild js/bundle.js --minify --outfile=js/bundle.js --allow-overwrite",
     "watch:js": "tsc -w",
     "watch": "npm-run-all --parallel watch:css watch:js",
     "build": "npm-run-all --parallel build:css build:js"
@@ -17,13 +17,11 @@
   "devDependencies": {
     "autoprefixer": "^10.4.23",
     "cssnano": "^7.1.2",
+    "esbuild": "^0.27.2",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.5.6",
     "postcss-cli": "^11.0.1",
     "postcss-preset-env": "^11.1.2",
     "typescript": "^5.9.3"
-  },
-  "dependencies": {
-    "@emailjs/browser": "^4.4.1"
   }
 }
